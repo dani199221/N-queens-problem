@@ -13,6 +13,7 @@ the row and column free. For example:
 
 Either unavailable row or col as input is zero. Treating this as a (0,0) case
 Starting from initial board:
+```
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
@@ -21,9 +22,10 @@ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
+```
 
 Looking for solution...
-
+```
 _ _ _ _ Q _ _ _
 _ _ _ _ _ _ Q _
 _ Q _ _ _ _ _ _
@@ -32,12 +34,13 @@ _ _ Q _ _ _ _ _
 Q _ _ _ _ _ _ _
 _ _ _ Q _ _ _ _
 _ _ _ _ _ _ _ Q
-
+```
 
 
 #python nqueen.py  nqueen 8 1 1
 
 Starting from initial board:
+```
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
@@ -46,9 +49,9 @@ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
-
+```
 Looking for solution...
-
+```
 _ _ _ _ _ Q _ _
 _ _ _ Q _ _ _ _
 _ _ _ _ _ _ Q _
@@ -57,4 +60,4 @@ _ _ Q _ _ _ _ _
 X _ _ _ Q _ _ _
 _ Q _ _ _ _ _ _
 _ _ _ _ _ _ _ Q
-
+```
